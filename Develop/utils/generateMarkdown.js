@@ -61,12 +61,12 @@ function generateMarkdown({data}) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
   ## Table of Contents
-    * [Description](# description)
-    * [Installation](# installation)
-    * [Usage](# usage)
-    * [License](# license)
-    * [Contribution](# contribution)
-    * [Tests](# tests)
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [License](#license)
+  5. [Contribution](#contribution)
+  6. [Tests](#tests)
 
   ## Description
       * ${data.description}
@@ -82,13 +82,13 @@ function generateMarkdown({data}) {
   
   ## License
       * This project is associated with the ${data.license} license
-      * <${renderLicenseLink(data.license)}>
+      * (${renderLicenseLink(data.license)})
   
   ## Tests
       ${data.tests}
 
   ## Questions
-      * GitHub profile: <https://github.com/${data.user}>
+      * GitHub profile: [${data.user}](https://github.com/${data.user})
       * Feel free to contact me by email at: ${data.email}
 `;
 }
