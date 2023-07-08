@@ -88,7 +88,7 @@ function generateMarkdown({data}) {
       ${data.tests}
 
   ## Questions
-      * GitHub profile: [${data.user}](https://github.com/${data.user})
+      * GitHub profile: https://github.com/${data.user}
       * Feel free to contact me by email at: ${data.email}
 `;
 }
