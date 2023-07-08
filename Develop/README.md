@@ -16,8 +16,7 @@
   
   ## Usage
       * The intended use of this application is to easily create complete README files
-      * Video Walkthrough
-        *<https://watch.screencastify.com/v/gQFpiig9XuFSML8vH3Gy>
+      * [Video Walkthrough](watch.screencastify.com/v/gQFpiig9XuFSML8vH3Gy)
   
   ## Contribution
       * If you would like to contribute to the application follow these guidlines: 1. Fork the project    2. Create your own feature branch   3. Make your desired changes     4. Commit your changes     5. . push to the main branch      6. Open a pull request for review
