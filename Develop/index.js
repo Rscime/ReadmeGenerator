@@ -39,7 +39,7 @@ const questions = [
       type: 'list',
       message: 'What license is associated with this application?',
       name: 'license',
-      choices: ['MIT', 'Apache', 'ISC', 'GNU', 'BSD', 'Boost', 'Creative Commons Zero', 'Eclipse', 'Mozilla', 'The Unlicense'],
+      choices: ['MIT', 'Apache', 'ISC', 'GNU', 'BSD', 'Boost', 'Creative Commons', 'Eclipse', 'Mozilla', 'The Unlicense'],
     },
     {
       type: 'input',
